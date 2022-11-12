@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Morpion</title>
+        <meta charset= "utf-8">
+        <script src=morpion.js></script>
+        <link rel="stylesheet" href="morpion.css"/>  
+    </head>
+
+    <body>
+        <h2>Morpion</h2>
+        <div class="div1">
+        <p id="règles">Règles du jeu : <br>Jouer seul contre un bot ou à 2, l'objectif est d'aligner 3 cases identiques pour 
+            les tableaux en 3x3 et 4x4. Pour les tableaux en 5x5 ou plus grand, il faut en aligner 4.</p>
+            <br><br>
+        <p id="bouton">  Taille du plateau : 
+        <input class="button" type="button" value="plateau en 3x3" onclick="taille_plat(3)"><br>
+        <input class="button" type="button" value="plateau en 4x4" onclick="taille_plat(4)"><br>
+        <input class="button" type="button" value="plateau en 5x5" onclick="taille_plat(5)"><br>
+        <input class="button" type="button" value="plateau en 6x6" onclick="taille_plat(6)"><br>
+        <input class="button" type="button" value="plateau en 7x7" onclick="taille_plat(7)"><br>
+        <input class="button" type="button" value="plateau en 8x8" onclick="taille_plat(8)"><br>
+        <input class="button" type="button" value="plateau en 9x9" onclick="taille_plat(9)"><br>
+        <input class="button" type="button" value="plateau en 10x10" onclick="taille_plat(10)"><br>
+        Choix du mode :
+        <input class="button"  type="button" value="Partie 1 joueur" onclick="morpion(1)"><input class="button" type="button" value="Partie 2 joueurs" onclick="morpion(2)">
+        </p></div>
+        <table>
+            <tr>
+                <td id="0"></td>
+                <td id="1"></td>
+                <td id="2"></td>
+            </tr>
+            <tr>
+                <td id="3"></td>
+                <td id="4"></td>
+                <td id="5"></td>
+            </tr>
+            <tr>
+                <td id="6"></td>
+                <td id="7"></td>
+                <td id="8"></td>
+            </tr>
+
+        </table>
+        <p></p>
+        <p id="message"></p>
+    </body>
+
+</html>

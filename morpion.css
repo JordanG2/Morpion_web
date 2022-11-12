@@ -1,0 +1,40 @@
+html { 
+    background: url('poudlard.jpg');
+    background-size: 100%;
+}
+
+table{
+    height:20em;
+    margin:auto;
+    margin-top: 6em;
+}
+
+a{color: blue;}
+.div1{
+    float: left;
+    width: 10em;
+}
+
+td{
+    background-image: url(fond.png);
+    background-size: 100%;
+    width: 10em;
+    height: 10em;
+    color: white; 
+}
+
+h2{text-align: center;}
+
+
+.button{
+    height: 4em;
+    width: 17.5em;
+}
+
+p{
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 14.5em;
+}
